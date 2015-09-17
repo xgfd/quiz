@@ -11,5 +11,5 @@ function add(x, y) {
 }
 
 function mul(x, y) {
-    return x ? x ^ 1 ? add(y, mul(dec(x), y)) : y : 0;
+    return x ? add(y, mul(dec(x), y)) : 0;
 }
